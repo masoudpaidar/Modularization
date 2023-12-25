@@ -28,6 +28,23 @@ Data Coupling is when modules share data with each other, and it's considered th
 
 Each folder in this repository includes an example of one of these types of coupling. The examples are aimed at illustrating not only the coupling itself but also potential refactorings to improve the design and reduce the unwanted coupling.
 
+
+## Cohesion Types
+The repository is organized into separate directories for each cohesion type, each containing relevant examples:
+
+- `ProceduralCohesion/`: Contains examples of methods grouped simply because they are called together forming a sequence.
+- `CommunicationalCohesion/`: Demonstrates methods that are grouped because they operate on the same piece of data.
+- `SequentialCohesion/`: Features methods that are organized in such a way that the output from one part serves as the input to another.
+- `LogicalCohesion/`: Includes examples where multiple logically related functionalities are included within a single module. Functions perform related operations but might not be directly connected in a sequence or work on the same data.
+- `TemporalCohesion/`: Functions that are related by the timing of their execution and are typically executed in the same phase of the program.
+- `CoincidentalCohesion/`: Functions that are grouped arbitrarily within the same module, without a clear relationship between them.
+- `FunctionalCohesion/`: Functions that together achieve a single well-defined task.
+
+
+
+
+
+
 ## Contact Information
 
 For further information, feel free to contact [masoud hajyzadeh] at [masoudpaidar76@gmail.com].
